@@ -1,0 +1,17 @@
+h1{
+    border: 8px dashed black;
+    rgb: (red, green, blue);
+}
+
+h4{
+    background: rgb(255,100,80);
+
+}
+
+body{
+
+    background: pink;
+    /* background: url(https://goo.gl/images/VuBkxc);
+    background-repeat: no-repeat */
+
+}
