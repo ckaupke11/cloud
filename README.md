@@ -1,3 +1,3 @@
 # My Site
 
-This is my site.
+This is my Github site.
