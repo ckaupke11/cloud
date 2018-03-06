@@ -1,0 +1,23 @@
+body{
+  background-color: blue;
+}
+
+#title{
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+.spinny-div{
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+  border: black 2px solid;
+  transition: all 0.5s ease-in-out;
+}
+
+.spinny-div:hover{
+  transition: all 0.5s ease-in-out;
+  transform: rotate(360deg);
+}
