@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Demo</title>
+</head>
+<body>
+
+    <h1>Login</h1>
+
+<!-- action = where the form sends data too -->
+<!-- method = what HTTP method (get/post) -->
+<!-- adding name attribute allows us to track the user data inputs (QUERY STRING) being sent in the field -->
+
+    <form action="https://www.wikipedia.org" method="GET">
+        <label for="username">Username:</label>
+        <input id="username" type="text" name="username" placeholder="User Name">
+        
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Password">
+
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
