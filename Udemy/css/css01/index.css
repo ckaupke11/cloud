@@ -1,0 +1,18 @@
+h1{
+    color: gray;
+    border-color: red;
+    border-width: 5px;
+    border-style: dashed;
+}
+
+h4{
+    color: blue;
+}
+
+body{
+    background: url(https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/10/18/Pictures/_5fb51944-d2ee-11e8-841e-211dfd3178e1.jpg);
+}
+
+li{
+    color: orange;
+}
