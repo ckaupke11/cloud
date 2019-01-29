@@ -9,7 +9,38 @@
 </head>
 <body>
     
-
+<p>Do you prefer cats or dogs?</p>
     
+<form action="https://www.google.com" method="GET">
+
+    <label for="dogs">dogs:</label>
+    <input name="petchoice" id="dogs" type="radio" value="DOGS">
+    
+    <label for="cats">cats:</label>
+    <input name="petchoice" id="cats" type="radio" value="CATS">
+
+    <p>How do you feel</p>
+
+<!-- value attribute for option tag changes the code in the query string to the values stated -->
+
+    <select name="feeling">
+        <option value="happy">:)</option>
+        <option value="meh">:|</option>
+        <option value="sad">:(</option>
+    </select>
+
+<!-- if the button is the last element in a form, it will submit the form (POST?) -->
+
+    <p>Tell me something</p>
+
+    <input type="text">
+
+    <p>Tell me something longer</p>
+    <textarea name="paragraph" cols="10" rows="20"></textarea>
+
+    <button>Go!</button>
+
+</form>
+
 </body>
 </html>
