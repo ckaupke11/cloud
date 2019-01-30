@@ -1,12 +1,31 @@
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Todo List</title>
-    <link rel="stylesheet" href="todolist.css">
-</head>
-<body>
-    
-</body>
-</html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Todo List</title>
+            <link rel="stylesheet" href="todolist.css">
+        </head>
+        <body>
+        
+            <h1>Todo List</h1>
+        
+            <!-- adding "checked" attribute will default the checkbox input to checked on page load -->
+            <ul>
+                <li class="completed">
+                    <input type="checkbox" checked>
+                    Task #1
+                </li>
+                <li class="completed">
+                    <input type="checkbox" checked>
+                    Task #2
+                </li>
+                <li id="special">
+                    <input type="checkbox">
+                    Task #3
+                </li>
+            </ul>
+            
+        </body>
+        </html>

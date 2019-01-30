@@ -1,0 +1,12 @@
+body{
+    background: grey;
+}
+
+/* # is for selecting ONLY 1 ID - you can't have more than 1 element with a special ID or it is considered invalid html */
+#special{
+    color: blue;
+}
+
+.completed{
+    text-decoration: line-through;
+}
