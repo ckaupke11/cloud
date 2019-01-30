@@ -1,0 +1,17 @@
+img{
+    width: 30%;
+    /* 10/6 = 1.66 as there are 6 margins to account for. 10% left after the 3 images on a row take up 30% each. this is based off of asset size */ 
+    margin: 1.66%;
+    float: left;
+    /* use float to get ride of the white space a browser automatically adds to the image widths; then add in your own as desired */
+}
+
+h1{
+    margin-left: 1.66%;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+}
